@@ -1,7 +1,7 @@
 Package.describe({
   name: 'chap:astroform',
   version: '0.0.1',
-  summary: '',
+  summary: 'Easily create forms with jagi:astronomy',
   documentation: 'README.md'
 })
 
