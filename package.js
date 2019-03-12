@@ -6,14 +6,14 @@ Package.describe({
 })
 
 Package.onUse(function (api) {
-  api.versionsFrom('1.7')
+  api.versionsFrom('1.8.0.2')
   api.use([
     'ecmascript',
     'modules',
     'reactive-dict',
     'reactive-var',
-    'templating',
-    'jagi:astronomy'
+    'templating@1.3.2',
+    'jagi:astronomy@2.7.1'
   ], 'client')
   api.mainModule('index.js', 'client')
 })
